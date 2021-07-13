@@ -1,0 +1,123 @@
+/* 
+    Got the sections right.
+    remember that values are different for flex-direction row/column.
+
+    I put colors on the background to tell the exact size of each box.
+    
+    i want to add a box and border for each profession.
+
+    what to do next : 
+        * make it look decent to finally post it.
+        once posted:
+        * try to figure out if you want to add more professions and detail for each
+        * fix the armpit!!!
+        * make the image faded/translucent white
+        * change font
+        * make logo
+*/
+
+html{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+}
+
+header{
+    height: 60px;
+    background-color: rgba(20, 20, 20, 1);
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+#self-img{
+    background-repeat: none;
+    background-size: cover;
+    height: 100%;
+}
+
+.left-section{
+    width: 40%;
+    height: 90vh;
+    background-color: rgba(20, 20, 20, 1);
+    background-image: url('./images/IMG_0082.jpg');
+    background-size: cover;
+}
+
+#right-section{
+    display: flex;
+    flex-direction: column;
+    background-color: teal;
+    height: 90vh;
+    width: 60%;
+}
+
+#title{
+    display: flex;
+    flex-direction: column;
+}
+
+#details, #title{
+    background-color: tan;
+    height: 50%;
+    /* width: 100vh; */
+}
+
+#professions, #social-links{
+    background-color: skyblue;
+    height: 50%;
+}
+
+#professions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: space-around;
+    background-color: thistle;
+}
+
+#social-links{
+    display: flex;
+    flex-direction: row;
+    justify-items: space-around;
+}
+
+/* social media */
+#social-img{
+    height: 30px;
+    width: 30px;
+}
+
+a{
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* footer */
+footer{
+    display: flex;
+    height: 30px;
+    background-color: rgba(20, 20, 20, 1);
+}
+
+footer p{
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 10pt;
+    color: silver;
+}
