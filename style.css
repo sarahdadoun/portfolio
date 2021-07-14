@@ -70,7 +70,10 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     font-size: 25pt;
+    background-color: whitesmoke;
+    border:1px solid black;
 }
 
 #details, #title{
