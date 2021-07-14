@@ -65,6 +65,8 @@ section{
 }
 
 #details, #title{
+    display: flex;
+    flex-direction: column;
     background-color: tan;
     height: 50%;
     /* width: 100vh; */
@@ -87,20 +89,25 @@ section{
 #social-links{
     display: flex;
     flex-direction: row;
-    justify-items: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 /* social media */
 #social-img{
     height: 30px;
     width: 30px;
+    padding-bottom: 15px;
 }
 
 a{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
     text-decoration: none;
 }
 
