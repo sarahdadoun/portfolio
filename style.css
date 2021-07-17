@@ -215,8 +215,51 @@ footer{
 }
 
 footer p{
+    position: absolute;
     text-align: center;
     letter-spacing: 1px;
     font-size: 7pt;
     color: silver;
+}
+
+@media (max-width: 800px){
+    /* .left-section, #right-section{
+        position: absolute;
+        width: 100vh;
+    } */
+
+    #right-section{
+        position: absolute;
+        width: 100vh;
+    }
+
+    /*  
+        Commented this out because 
+        the footer was stuck to the top, 
+        behind the right-section. I only made
+        the right-section position:absolute
+        so that it sits in front of the image,
+        which is just a background. So i dont
+        care what goes in front of it.
+    */
+    /* .left-section{
+        z-index: 1;
+
+        background-position: center;
+        opacity: 50%;
+    } */
+
+    .left-section{
+        z-index: 1;
+
+        width: 100vh;
+        background-position: center;
+        opacity: 50%;
+    }
+
+    #right-section{
+        z-index: 2;
+
+        background-color: rgba(255,255,255,0.5);
+    }
 }
