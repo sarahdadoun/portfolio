@@ -90,11 +90,36 @@ h1{
     box-shadow: 10px 10px rgba(0,0,0,0.8);
 }
 
-#details, #title{
+#title p{
+    font-size: 12pt;
+    width: 50%;
+    text-align: center;
+}
+
+#title{
     display: flex;
     flex-direction: column;
     /* background-color: tan; */
-    height: 50%;
+    height: 60%;
+    /* width: 100vh; */
+}
+
+#line-spacing{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    height: 2px;
+    width: 300px;
+    position: relative;
+    top: -20px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#details{
+    display: flex;
+    flex-direction: column;
+    /* background-color: tan; */
+    height: 40%;
     /* width: 100vh; */
 }
 
@@ -147,7 +172,6 @@ h1{
 #social-img{
     height: 30px;
     width: 30px;
-    padding-bottom: 15px;
 }
 
 a{
@@ -156,22 +180,26 @@ a{
     justify-content: center;
     align-items: center;
 
-    margin-left: 40px;
-    margin-right: 40px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 12px;
+
     text-decoration: none;
     font-size: 9pt;
 
-    width: 70px;
-    height: 80px;
+    /* width: 70px;
+    height: 80px; */
 }
 
 a:hover{
-    padding: 10px 15px;
-    margin-left: 25px;
-    margin-right: 25px;
-
+    /* margin-left: 20px;
+    margin-right: 20px; */
     width: 70px;
-    height: 80px;
+    height: 70px;
     background-color: whitesmoke;
     border: 1px solid lightgrey;
     border-radius: 12px;
