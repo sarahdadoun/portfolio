@@ -260,6 +260,57 @@ footer p{
     #right-section{
         z-index: 2;
 
-        background-color: rgba(255,255,255,0.5);
+        background-color: rgba(255,255,255,0.8);
+    }
+
+    /* --- COMING SOON --- */
+
+    h1{
+        font-size: 23pt;
+    }
+    
+    #title p{
+        padding: 30px 0px 0px 0px;
+        font-size: 10pt;
+        width: 50%;
+        text-align: center;
+    }
+
+    /* --- PROFESSIONS --- */
+
+    #professions p{
+        padding: 10px 15px;
+    
+        background-color: whitesmoke;
+        border: 1px solid lightgrey;
+        border-radius: 12px;
+        font-size: 10pt;
+    }
+
+    /* --- LINKS --- */
+
+    a{
+        margin: 10px;
+        width: 40px;
+        height: 40px;
+        background-color: rgba(255,255,255,0);
+        border: 1px solid rgba(255,255,255,0);
+        border-radius: 12px;
+    
+        text-decoration: none;
+        font-size: 9pt;
+    
+        /* width: 70px;
+        height: 80px; */
+    }
+    
+    a:hover{
+        /* margin-left: 20px;
+        margin-right: 20px; */
+        width: 40px;
+        height: 40px;
+        background-color: whitesmoke;
+        border: 1px solid lightgrey;
+        border-radius: 12px;
     }
 }
