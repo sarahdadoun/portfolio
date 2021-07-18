@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./phone-javascript.js">
+    <!-- <link rel="phone-javascript" href="./phone-javascript.js"> -->
+    <script src="./phone-javascript.js"></script>
     <title>Sarah Dadoun's Portfolio</title>
 </head>
 <body>
@@ -24,6 +25,11 @@
             <div id="title">
                 <h1>Coming Soon</h1>
                 <p id="welcome-message">You've landed on Sarah Dadoun's online portfolio, which is still being created as we speak! &#128522 Come back in a month<br>and check it out!</p>
+                <script>
+                    if(window.innerWidth < 500){
+                        document.getElementById("welcome-message").innerHTML = "You've landed on Sarah Dadoun's online portfolio, which is still being created as we speak! &#128522 Come back in a month and check it out!";
+                    }
+                </script>
             </div>
             <div id="line-spacing"></div>
             <!-- social media/links -->
